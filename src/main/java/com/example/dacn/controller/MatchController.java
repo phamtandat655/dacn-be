@@ -1,7 +1,7 @@
 package com.example.dacn.controller;
 import com.example.dacn.dto.MatchRequestDTO;
 import com.example.dacn.dto.MatchResponseDTO;
-import com.example.dacn.service.MatchServiceBK;
+import com.example.dacn.service.MatchService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -15,7 +15,7 @@ import java.util.Map;
 public class MatchController {
 
     @Autowired
-    private MatchServiceBK matchService;
+    private MatchService matchService;
 
     @GetMapping("/hello-world")
     public ResponseEntity<String> helloWorld() {
