@@ -213,7 +213,6 @@ Dự án được xây dựng với:
 
 ## Liên hệ
 - Tác giả: Phạm Tấn Đạt
-- Email: [your-email@example.com](mailto:your-email@example.com)
-- GitHub: [your-username](https://github.com/your-username)
+- Email: [phamtandat655@example.com](mailto:phamtandat655@example.com)
 
 ---
